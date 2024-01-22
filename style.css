@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1DA1F2;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+}
+.formbody form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.formbody form select{
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    outline-style: none;
+}
+.backimage {
+  width: 100%;
+  overflow: hidden;
+}
+.backimage img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.center img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+.center p{
+    padding: 10px;
+    line-height: 20px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw;
+}
+.bottom #postList{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: flex-start; */
+    width: 50%;
+}
+.bottom #postList div{
+    padding: 10px;
+}
+.bottom #commentList{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: flex-start; */
+    width: 50%;
+}
+.bottom #commentList div{
+    padding: 10px;
+}
